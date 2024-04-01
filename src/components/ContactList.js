@@ -15,7 +15,8 @@ const ContactList = () => {
 	<div>
 	  <SearchBox />
 	  <div className="num">num: {list.length}</div>
-	  {list.map((item, i)=>(<ContactItem key={item.id} item={item}/>))}
+	  {list.map((item)=>(<ContactItem key={item.id} item={item}/>))}
+	  {/* !! 삭제할 경우를 대비해서 key=index 안된다. */}
 	</div>
   )
 }
