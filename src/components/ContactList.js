@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import SearchBox from './SearchBox'
 import ContactItem from './ContactItem'
 import { useContact } from '../store/store'

@@ -37,7 +37,7 @@ const ContactItem = ({item}) => {
 
 		<Row>
 		<Col lg={3}>
-			<img width={100} src="https://tse2.mm.bing.net/th?id=OIP.CyWOZUh-iap_O46jmMhqKwHaHa&pid=Api&P=0&h=220" />
+			<img width={100} src="https://tse2.mm.bing.net/th?id=OIP.CyWOZUh-iap_O46jmMhqKwHaHa&pid=Api&P=0&h=220" alt="" />
 		</Col>
 		<Col className="text" lg={3}>
 			<div contentEditable={isEditing} ref={nameRef} onKeyDown={handleKeyDown}>{item.name}</div>
